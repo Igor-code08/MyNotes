@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarEditNote"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:title="Редактировать заметку"
+        android:titleTextColor="@android:color/white" />
+
+    <!-- Поле редактирования текста -->
+    <EditText
+        android:id="@+id/etEditNoteText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Кнопка редактирования -->
+    <Button
+        android:id="@+id/btnEditNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Редактировать" />
+</LinearLayout>
